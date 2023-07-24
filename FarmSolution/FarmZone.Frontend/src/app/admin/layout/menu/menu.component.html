@@ -1,0 +1,43 @@
+<div class="layout-sidebar"><a class="logo" href="#/"><img id="app-logo" src="./assets/layout/images/logo_white.svg"
+            alt="Doktor Randevu" class="logo-image"></a>
+    <div class="layout-menu-container">
+
+        <ul class="layout-menu">
+            <li class="layout-root-menuitem">
+                <div class="layout-menuitem-root-text">HOME</div>
+                <a pRipple tabindex="0"><i class="layout-menuitem-icon pi pi-home"></i><span
+                        class="layout-menuitem-text ">HOME</span><i
+                        class="pi pi-fw layout-submenu-toggler  pi-chevron-down "></i>
+
+                </a>
+                <ul role="menu" style="z-index: 100;">
+                    <li class="active-menuitem">
+                        <a routerlinkactive="active-route" pRipple class="active-route" tabindex="0" href="admin/home"><i
+                                class="layout-menuitem-icon pi pi-fw pi-home"></i><span
+                                class="layout-menuitem-text ">Dashboard</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li class="layout-root-menuitem" *ngFor="let root of items">
+                <div class="layout-menuitem-root-text">{{root.label}}</div>
+                <a pRipple tabindex="0"><i class="layout-menuitem-icon pi pi-home"></i><span
+                        class="layout-menuitem-text">{{root.label}}</span><i
+                        class="pi pi-fw layout-submenu-toggler"></i>
+
+                </a>
+                <ul role="menu" style="z-index: 100;" *ngFor="let item of root.items">
+                  <li class="active-menuitem">
+                        <a routerlinkactive="active-route" pRipple class="active-route" tabindex="0" [href]="item.url">
+                            <i [class]="'layout-menuitem-icon pi pi-fw ' +  item.icon"></i>
+                            <span class="layout-menuitem-text ">{{item.label}}</span>
+                        </a>
+                    </li> 
+                </ul>
+            </li> 
+        </ul> 
+
+
+    </div>
+</div>

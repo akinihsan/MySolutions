@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="margin: auto; background: rgb(241, 242, 243); display: block;" width="195px" height="195px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+<circle cx="22" cy="50" r="5" fill="#93dbe9">
+  <animate attributeName="cy" values="36;64;36" times="0;0.5;1" dur="1.0309278350515465s" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="0s" repeatCount="indefinite"></animate>
+</circle><circle cx="33" cy="62.12435565298214" r="5" fill="#689cc5">
+  <animate attributeName="cy" values="36;64;36" times="0;0.5;1" dur="1.0309278350515465s" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="-0.1718213058419244s" repeatCount="indefinite"></animate>
+</circle><circle cx="44" cy="62.124355652982146" r="5" fill="#5e6fa3">
+  <animate attributeName="cy" values="36;64;36" times="0;0.5;1" dur="1.0309278350515465s" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="-0.3436426116838488s" repeatCount="indefinite"></animate>
+</circle><circle cx="55" cy="50" r="5" fill="#3b4368">
+  <animate attributeName="cy" values="36;64;36" times="0;0.5;1" dur="1.0309278350515465s" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="-0.5154639175257731s" repeatCount="indefinite"></animate>
+</circle><circle cx="66" cy="37.87564434701786" r="5" fill="#93dbe9">
+  <animate attributeName="cy" values="36;64;36" times="0;0.5;1" dur="1.0309278350515465s" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="-0.6872852233676976s" repeatCount="indefinite"></animate>
+</circle><circle cx="77" cy="37.87564434701786" r="5" fill="#689cc5">
+  <animate attributeName="cy" values="36;64;36" times="0;0.5;1" dur="1.0309278350515465s" calcMode="spline" keySplines="0.5 0 0.5 1;0.5 0 0.5 1" begin="-0.8591065292096219s" repeatCount="indefinite"></animate>
+</circle>
+</svg>

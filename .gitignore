@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FarmSolution/FarmSolution.Backend/Farm.Core/bin/Debug/net6.0
+/FarmSolution/FarmSolution.Backend/Farm.Core/obj
+/FarmSolution/FarmSolution.Backend/Farm.API/bin/Debug/net6.0
+/FarmSolution/FarmSolution.Backend/Farm.API/obj
+/FarmSolution/FarmSolution.Backend/Farm.Infrastructure/bin/Debug/net6.0
+/FarmSolution/FarmSolution.Backend/Farm.Infrastructure/obj
+/FarmSolution/FarmSolution.Backend/Farm.Service/bin/Debug/net6.0
+/FarmSolution/FarmSolution.Backend/Farm.Service/obj
+/MatrixAreaSolution/FindAreasConsole/bin/Debug/net6.0
+/MatrixAreaSolution/FindAreasConsole/obj
+/MatrixAreaSolution/Services/bin/Debug/net6.0
+/MatrixAreaSolution/Services/obj
+/MatrixAreaSolution/Services.Test/bin
+/MatrixAreaSolution/Services.Test/obj
+/.vs

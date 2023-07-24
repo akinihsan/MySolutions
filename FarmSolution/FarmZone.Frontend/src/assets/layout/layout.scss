@@ -1,0 +1,139 @@
+/* nunito-regular - latin-ext_latin */
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Nunito Regular"), local("Nunito-Regular"),
+        url("fonts/nunito-v12-latin-ext_latin-regular.woff2") format("woff2");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* nunito-600 - latin-ext_latin */
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    src: local("Nunito SemiBold"), local("Nunito-SemiBold"),
+        url("fonts/nunito-v12-latin-ext_latin-600.woff2") format("woff2");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* nunito-700 - latin-ext_latin */
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Nunito Bold"), local("Nunito-Bold"), url("fonts/nunito-v12-latin-ext_latin-700.woff2") format("woff2");
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+html {
+    height: 100%;
+    font-size: 14px;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    padding: 10px 8%;
+    background: rgba(103, 199, 250, 0.4) !important;
+}
+.box-patient {
+    background-color: #846ac0 !important;
+    border-color: #5431a5 !important;
+}
+.box-physician {
+    background-color: #2b4562 !important;
+    border-color: #223449 !important;
+}
+.box-medical-institution {
+    background-color: #979392 !important;
+    border-color: #797371 !important;
+}
+.img-rounded {
+    border-radius: 12px;
+    transition: opacity 0.5s ease 0s;
+    max-width: 100%;
+}
+.doctor-box {
+    text-align: center;
+    font-weight: bold;
+}
+.layout-footer {
+    font-size: 1rem;
+    background-color: var(--surface-a);
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 60px 0 0px;
+    padding: 80px 8% 24px;
+    a {
+        color: #777777;
+        font-weight: bold;
+    }
+}
+.p-component {
+    font-family: "Nunito" !important;
+}
+
+.p-button // makes all buttons rounded
+{
+    border-radius: 0.5rem;
+}
+// .p-inputtext.p-inputtext-lg
+// {
+//     font-size: 2rem;
+// }
+.physicianFileUploadStyle {
+    .p-fileupload-buttonbar {
+        .p-button {
+            background-color: #2b4562 !important;
+            color: #ffffff;
+            border-color: #5e6842 !important;
+        }
+    }
+    .p-fileupload-files {
+        .p-button {
+            background-color: #2b4562 !important;
+            color: #ffffff;
+            border-color: #263c55 !important;
+        }
+    }
+}
+
+.medicalInstitutionFileUploadStyle {
+    .p-fileupload-buttonbar {
+        .p-button {
+            background-color: #979392 !important;
+            border-color: #797371 !important;
+            color: #ffffff;
+        }
+    }
+    .p-fileupload-files {
+        .p-button {
+            background-color: #979392 !important;
+            border-color: #797371 !important;
+            color: #ffffff;
+        }
+    }
+}
+
+re-captcha.is-invalid > div {
+    border: 1px solid #dc3545 !important;
+    border-radius: 0.2rem;
+}
+#recaptcha.is-invalid > div
+{
+    border: 1px solid #dc3545 !important;
+    border-radius: 0.2rem;
+}
